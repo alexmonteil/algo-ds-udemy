@@ -1,5 +1,7 @@
 # write a function that takes 2 strings
 # the function checks if the first string is a subsequence of the second
+# specifically the function should check if the characters of string 1 are present in string 2 in the same order
+# characters can be in the same order with other characters in between
 # returns True or False
 
 def is_subsequence(str1, str2):
