@@ -1,9 +1,5 @@
 # write a function which accepts a list of integers and an integer n
 # The function should calculate the maximum sum of n consecutive elements in the list
-
-from ast import Num
-
-
 def max_sublist_sum(list, n):
     listlen = len(list)
     if n >= listlen:
