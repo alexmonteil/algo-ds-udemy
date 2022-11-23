@@ -2,11 +2,8 @@ def rooty_print(matrix):
     print(rooty_printing(matrix, 0, len(matrix) - 1))
 
 def rooty_printing(matrix, i, j):
-    
-    if j < i - 1:
-        return
-    
-    elif j == i - 1:
+
+    if j == i - 1:
         return "d" + str(i)
     
     else:
