@@ -1,5 +1,5 @@
 def rooty_print(matrix):
-    print(rooty_printing(matrix, 0, len(matrix) - 1))
+    print(rooty_printing(matrix, 1, len(matrix)))
 
 def rooty_printing(matrix, i, j):
     
