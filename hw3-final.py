@@ -1,5 +1,5 @@
-# Added additional row and and column to the matrix to simulate Cormen's 1 indexed arrays and keep the code close to what would work with Cormen's pseudocode.
-# Modified the code on line 4 from: len(matrix) in the pseudocode version to: len(matrix) - 1 to account for row and column modification.
+# Added additional row and and column to the matrix to simulate Cormen's one-based array indexing and allow python to run the algorithm.
+# Modified the code on line 4 from: len(matrix) in the pseudocode version to: len(matrix) - 1 in this version to account for row and column modification.
 def rooty_print(matrix):
     print(rooty_printing(matrix, 1, len(matrix) - 1))
 

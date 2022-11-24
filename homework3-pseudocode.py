@@ -1,3 +1,4 @@
+# Pseudocode version written in python syntax but does not run due to Cormen's one-based array indexing while python has zero-based array indexing.
 def rooty_print(matrix):
     print(rooty_printing(matrix, 1, len(matrix)))
 
