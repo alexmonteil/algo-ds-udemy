@@ -13,10 +13,10 @@ def rooty_printing(matrix, i, j):
 
 matrix = [
     [1,1,2,2,2],
-    [2,2,2,4],
-    [3,4,5],
-    [4,5],
-    [5]
+    [None,2,2,2,4],
+    [None,None,3,4,5],
+    [None,None,None,4,5],
+    [None,None,None,None,5]
 ]
 
 rooty_print(matrix)
